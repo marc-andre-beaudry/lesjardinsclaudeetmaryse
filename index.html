@@ -10,9 +10,504 @@
 <meta name="author" content="Marc-Andre Beaudry">
 
 <title>Les Jardins Claude et Maryse</title>
+
+<!-- Fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,300italic,400italic,600italic,700italic|Droid+Serif:400,400italic">
+<link rel="stylesheet" href="assets/fonts/novecento/stylesheet.css">
+<link rel="stylesheet" href="assets/icons/glyphicons/style.min.css">
+<link rel="stylesheet" href="assets/icons/font-awesome/font-awesome.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theme-light.css">
+<link rel="stylesheet" href="assets/css/theme-dark.css">
+
+<!-- Plugins -->
+<link rel="stylesheet" href="assets/plugins/royalslider/royalslider.min.css">
+<link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/plugins/mfp/jquery.mfp.css">
+
+<!-- Additional styles -->
+<style>
+#culture {
+	background-image: url(demo/img/culture-bg.jpg);
+}
+</style>
+
 </head>
 
 <body>
-<h1>Bonjour! Notre site web est présentement en construction, venez voir notre page Facebook!</h1>
-<a href="https://www.facebook.com/LesJardinsClaudeEtMaryse">Page Facebook</a>
+
+<div class="site-loader th-dark"></div>
+
+<!-- Home splash screen -->
+<section id="home" class="site-splash fullscreen">
+	<div class="splash-inner">
+		<div class="splash-slider">
+		<div class="splash-content" data-background="assets/img/2525_kiosque.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="splash-text">
+								<h1 class="splash-headline">Les Jardins Claude et Maryse</h1>
+								<div class="splash-description">
+									<p>Producteurs de fraises et de légumes</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="splash-content" data-background="assets/img/965_kiosque.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="splash-text">
+								<h1 class="splash-headline">Les Jardins Claude et Maryse</h1>
+								<div class="splash-description">
+									<p>Producteurs de fraises et de légumes</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="cycle-next"></div>
+			<div class="cycle-prev"></div>
+		</div>
+		
+		<div class="splash-feedback">
+			<span class="mouse">
+				<span class="fa fa-angle-down"></span>
+			</span>
+			<span class="caption">Scroll</span>
+		</div>
+	</div>
+</section>
+
+<!-- Header bar -->
+<header class="site-header th-dark">
+	<div class="header-inner">
+		<div class="container">
+			<div class="row">
+				<div class="header-table col-md-12">
+					<div class="header-col brand">
+						<a href="#"><strong>Les Jardins Claude et Maryse</strong></a>
+					</div>
+					<div class="header-col main-nav">
+						<a href="#" class="nav-toggle"></a>
+						<ul class="nav">
+							<li><a href="#">Accueil</a></li>
+							<li><a href="#news">Annonces</a></li>
+							<li><a href="#kiosk">Kiosques</a></li>
+							<li><a href="#products">Produits</a></li>
+							<li><a href="#pictures">Photos</a></li>
+							<li><a href="#contact">Contact</a></li>							
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="site-wrapper">	
+
+	<div class="site-body">
+	
+		<!-- New Section -->
+		<section id="news" class="section th-dark">
+			<div class="section-row-container">
+				<div class="section-row no-padding-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Annonces">Annonces</span>
+								</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h4>2015-07-06</h4>
+								<hr></hr>
+								<p class="lead">
+									Le maïs sucré du Québec est enfin arrivé!
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h4>2015-07-02</h4>
+								<hr></hr>
+								<p class="lead">
+									Tous nos kiosques sont présentement ouverts et ce, à tous les jours. Venez gouter à des produits frais du Québec.
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h4>2015-07-01</h4>
+								<hr></hr>
+								<p class="lead">
+									Bienvenu sur notre site web. Vous pouvez également consulter notre page Facebook au lien suivant : 
+									<a href="https://www.facebook.com/LesJardinsClaudeEtMaryse">https://www.facebook.com/LesJardinsClaudeEtMaryse</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Kiosk Section -->
+		<section id="kiosk" class="section th-dark">
+			<div class="section-row-container">
+				<div class="section-row no-padding-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Nos points de vente">Nos points de vente</span>
+								</h2>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<p class="lead">
+									Chacun de nos points de vente contienent nos produits de première qualité. 
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<div class="team" data-animation-name="fadeInRight">
+									<div class="team-photo">
+										<figure>
+											<img src="assets/img/2525_kiosque.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Kiosque 2525</h4>
+										<p class="team-role">Saint-Jean-Baptiste</p>
+									</div>
+
+									<div class="team-data" data-name="Kiosque 2525" data-role="Saint-Jean-Baptiste" data-photo="assets/img/2525_kiosque.jpg" data-theme="th-dark">
+										<p><strong class="text-semibold">Kiosque 2525</strong><br>
+											2525 Rang de la Rivière Sud<br>
+											Saint-Jean-Baptiste, Québec<br>
+											J0L 2B0
+										</p>
+										<div class="spacer-60 bordered"></div>										
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6">
+								<div class="team" data-animation-name="fadeInRight">
+									<div class="team-photo">
+										<figure>
+											<img src="assets/img/965_kiosque.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Kiosque 965</h4>
+										<p class="team-role">Saint-Jean-Baptiste</p>
+									</div>
+
+									<div class="team-data" data-name="Kiosque 965" data-role="Saint-Jean-Baptiste" data-photo="assets/img/965_kiosque.jpg" data-theme="th-dark">
+										<p><strong class="text-semibold">Kiosque 2525</strong><br>
+											965 Rang de la Rivière Sud<br>
+											Saint-Jean-Baptiste, Québec<br>
+											J0L 2B0
+										</p>
+										<div class="spacer-60 bordered"></div>										
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6">
+
+								<div class="team" data-animation-name="fadeInRight">
+
+									<div class="team-photo">
+										<figure>
+											<img src="assets/img/2525_kiosque.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Marché Publique</h4>
+										<p class="team-role">Saint-Foy</p>
+									</div>
+
+									<div class="team-data" data-name="Marche Publique" data-role="Sainte-Foy" data-photo="assets/img/2525_kiosque.jpg" data-theme="th-dark">
+										<p><strong class="text-semibold">Kiosque 2525</strong><br>
+											939 Avenue Roland-Beaudin<br>
+											Québec, Québec<br>
+											G1V 3V9
+										</p>
+										<div class="spacer-60 bordered"></div>										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Product section -->
+		<section id="products" class="section th-dark">
+
+			<div class="section-row-container">
+				<div class="section-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Nos produits">Nos produits</span>
+								</h2>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">					
+								<ul>
+									<li>Fraises</li>
+									<li>Framboises</li>
+									<li>Maïs sucré</li>
+									<li>Tomates de serres</li>
+									<li>Haricots verts et jaunes</li>
+									<li>Carottes</li>
+									<li>Pommes de terres</li>
+									<li>Zuchinis</li>		
+									<li>Comcombres</li>
+									<li>Radis</li>
+									<li>Brocolis</li>
+									<li>Salade</li>							
+								</ul>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Picture section -->
+		<section id="pictures" class="section th-dark">
+			<div class="section-row-container">
+				<div class="section-row no-padding-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Photos">Photos</span>
+								</h2>
+							</div>
+						</div>
+
+						<div class="row" data-animation-chain-duration="1200">
+							<div class="col-md-10 col-md-push-2">
+								<div class="projects">
+									<div class="items">
+										<div class="grid-sizer"></div>
+										<div class="gutter-sizer"></div>
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/champs.png" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/champs.png"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/couverture.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/couverture.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/kiosque_interieur.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/kiosque_interieur.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="row" data-animation-chain-duration="1200">
+							<div class="col-md-10 col-md-push-2">
+								<div class="projects">
+									<div class="items">
+										<div class="grid-sizer"></div>
+										<div class="gutter-sizer"></div>
+
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/tables.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/tables.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/tracteur.png" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/tracteur.png"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="project">
+											<div class="project-image">
+												<img src="assets/img/pictures/travailleurs.png" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="assets/img/pictures/travailleurs.png"><i class="gi gi-resize-full"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>		
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Contact -->
+		<section id="contact" class="section th-dark">
+			<div class="section-row-container">
+				<div class="section-row no-padding-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-push-4">
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Nous rejoindre">Nous rejoindre</span>
+								</h2>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<p class="lead">
+									<strong class="text-semibold">Kiosque 2525</strong><br>
+                                    2525 Rang de la Rivière Sud<br>
+									Saint-Jean-Baptiste, Québec<br>
+									J0L 2B0
+								</p>
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<!-- Google map link -->
+				<div class="section-row no-padding-top no-padding-bottom">
+					<div class="google-maps-container">
+						<div class="google-maps" data-center="45.378659,-71.929604,17" data-markers="[{&quot;lat&quot;:&quot;45.378659&quot;,&quot;lng&quot;:&quot;-71.929604&quot;}]" data-zoom="16" data-scrollWheel="false" data-monochrome="true"></div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+
+	<!-- Footer section -->
+	<footer class="site-footer">
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-text">
+							Copyright &copy; 2008-2014. <a href="#">Les Jardins Claude et Maryse</a>. All Rights Reserved.
+						</div>
+						<div class="social-list">
+							<ul>
+								<li><a href="https://www.facebook.com/LesJardinsClaudeEtMaryse"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.setup.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.scripts.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.plugins.js"></script>
+
+<script type="text/javascript" src="assets/plugins/royalslider/jquery.royalslider.min.js"></script>
+<script type="text/javascript" src="assets/plugins/mfp/jquery.mfp-0.9.9.js"></script>
+<script type="text/javascript" src="assets/plugins/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="assets/plugins/gmap/gmap3.min.js"></script>
+<script type="text/javascript" src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.form.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.validate.min.js"></script>
+
 </body>
+
+</html>
